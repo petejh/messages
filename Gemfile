@@ -47,7 +47,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 group :development, :test do
-  gem "rspec-rails", "2.0.0"
-  gem "webrat", "0.7.2"
+  gem "rspec-rails", "~> 2.14.1"
+  gem "webrat", "~> 0.7.3"
 end
 
